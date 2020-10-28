@@ -1,0 +1,8 @@
+<?php
+/** @var \Sga\OpCache\Block\Adminhtml\Cache\Additional $block */
+?>
+<p>
+    <button onclick="setLocation('<?= $block->escapeJs($block->getCleanPhpOpcacheUrl()); ?>')" type="button">
+        <?= $block->escapeHtml(__('Clean PHP Opcache')); ?>
+    </button>
+</p>

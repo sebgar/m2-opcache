@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route frontName="sga_opcache" id="sga_opcache">
+            <module before="Magento_Backend" name="Sga_OpCache"/>
+        </route>
+    </router>
+</config>
